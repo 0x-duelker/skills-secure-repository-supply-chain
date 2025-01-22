@@ -7,6 +7,10 @@
   "scripts": {
     "start": "node provisionComposer.js"
   },
+  "engines": {
+  "node": ">=16",
+  "npm": ">=7"
+}
   "dependencies": {
     "@azure/arm-appinsights": "^2.1.0",
     "@azure/arm-botservice": "^1.0.0",
